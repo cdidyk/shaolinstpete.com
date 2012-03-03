@@ -1,0 +1,95 @@
+%header#header.container.clearfix
+  %a#logo{ href: "index.html" }
+    %img{ src: "/assets/img/logo.png", alt: "SmartStart" }
+
+  %nav#main-nav
+    %ul
+      %li.current
+        %a{ href: "index.html", 'data-description' => "All starts here" } Home
+        %ul
+          %li
+            %a{ href: "logos-slider.html" } Logos Slider
+          %li
+            %a{ href: "photos-slider.html" } Photos Slider
+      %li
+        %a{ href: "elements.html", 'data-description' => "All the different stuff" } Features
+        %ul
+          %li
+            %a{ href: "about-us.html" } About Us
+          %li
+            %a{ href: "our-team.html" } Our Team
+          %li
+            %a{ href: "elements.html" } Elements
+          %li
+            %a{ href: "columns.html" } Columns
+          %li
+            %a{ href: "#" } Third Level Item
+      %li
+        %a{ href: "blog.html", 'data-description' => "What we think" }Blog
+      %li
+        %a{ href: "portfolio-4-columns.html",  'data-description' => "Work we are proud of" } Portfolio
+      %li
+        %a{ href: "contact-us.html", 'data-description' => "Enquire here" } Contact
+
+%section#content.container.clearfix
+  %h2.slogan.align-center
+    We are a group of experienced designers and developers.
+    %br
+    We set new standards in user experience &amp; make future happen.
+
+  %section#features-slider.ss-slider
+    %article.slide
+      %img.slide-bg-image{ src: "/assets/img/placeholders/slider-slide-1.jpg", alt: "" }
+
+      %div.slide-button
+        %span.dropcap 1
+        %h5 Responsive Layout
+        %span.description From desktop to mobile
+
+      %div.slide-content
+        %h2 Responsive Layout
+        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec purus justo.
+        %p
+          %a.button{ href: "#" } Read More
+
+    %article.slide
+      %img.slide-bg-image{ src: "/assets/img/placeholders/slider-slide-2.jpg", alt: ""}
+
+      %div.slide-button
+        %span.dropcap 2
+        %h5 HTML5 / CSS3
+        %span.description For today and tomorrow
+
+      %div.slide-content
+        %h2 HTML5 / CSS3
+        %p Hendrerit eleifend condimentum quis, varius at lacus. Donec ultrices justo scelerisque erat feugiat sed mattis justo volutpat.
+        %p
+          %a.button{ href: "#" } Read More
+
+    %article.slide
+      %img.slide-bg-image{ src: "/assets/img/placeholders/slider-slide-3.jpg", alt: ""}
+
+      %div.slide-button
+        %span.dropcap 3
+        %h5 Easily Customisable
+        %span.description Build the way you want!
+
+      %div.slide-content
+        %h2 Easily Customisable
+        %p Etiam at nunc felis, vitae gravida libero. Morbi molestie elit eget metus volutpat vitae bibendum quam lacinia. Maecenas porttitor blandit nisl sit amet blandit. Phasellus porta sodales accumsan.
+        %p
+          %a.button{ href: "#" } Read More
+
+    %article.slide
+      %img.slide-bg-image{ src: "/assets/img/placeholders/slider-slide-4.jpg", alt: ""}
+
+      %div.slide-button
+        %span.dropcap 4
+        %h5 Unique &amp; Clean
+        %span.description Stand out from the crowd!
+
+      %div.slide-content
+        %h2 Unique &amp; Clean
+        %p Fusce porta elit quis nunc mollis ut lacinia eros accumsan. Aenean consequat egestas diam, vel pharetra tellus venenatis in.
+        %p
+          %a.button{ href: "#" } Read More

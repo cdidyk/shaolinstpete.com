@@ -22,7 +22,7 @@ compile '*' do
   if item.binary?
     # don’t filter binary items
   else
-    filter :erb
+    filter :haml, format: :html5
     layout 'default'
   end
 end
