@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
 
 # A few helpful tips about the Rules file:
 #
@@ -13,7 +14,7 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
-compile '/stylesheet/' do
+compile '/assets/*/' do
   # don’t filter or layout
 end
 
@@ -26,9 +27,13 @@ compile '*' do
   end
 end
 
-route '/stylesheet/' do
-  '/style.css'
+route '/assets/*/' do
+  item.identifier.chop + '.' + item[:extension]
 end
+
+# route '/stylesheet/' do
+#   '/style.css'
+# end
 
 route '*' do
   if item.binary?

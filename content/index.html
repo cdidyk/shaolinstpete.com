@@ -1,14 +1,142 @@
----
-title: Home
----
+<header id="header" class="container clearfix">
 
-<h1>A Brand New nanoc Site</h1>
+	<a href="index.html" id="logo">
+		<img src="/assets/img/logo.png" alt="SmartStart">
+	</a>
 
-<p>You’ve just created a new nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
+	<nav id="main-nav">
 
-<ul>
-  <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
-  <li><p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).</p></li>
-</ul>
+		<ul>
+			<li class="current">
+				<a href="index.html" data-description="All starts here">Home</a>
+				<ul>
+					<li><a href="logos-slider.html">Logos Slider</a></li>
+					<li><a href="photos-slider.html">Photos Slider</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="elements.html" data-description="All the different stuff">Features</a>
+				<ul>
+					<li><a href="about-us.html">About Us</a></li>
+					<li><a href="our-team.html">Our Team</a>
+						<ul>
+							<li><a href="we-are-hiring.html">We are hiring</a></li>
+						</ul>
+					</li>
+					<li><a href="elements.html">Elements</a></li>
+					<li><a href="columns.html">Columns</a></li>
+					<li><a href="#">Third Level Item</a>
+						<ul>
+							<li><a href="#">This is a simple example</a></li>
+							<li><a href="#">Of the third level</a></li>
+							<li><a href="#">Navigation item</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="blog.html" data-description="What we think">Blog</a>
+				<ul>
+					<li><a href="single-post.html">Single Post</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="portfolio-4-columns.html" data-description="Work we are proud of">Portfolio</a>
+				<ul>
+					<li><a href="portfolio-2-columns.html">2 Columns</a></li>
+					<li><a href="portfolio-3-columns.html">3 Columns</a></li>
+					<li><a href="portfolio-4-columns.html">4 Columns</a></li>
+					<li><a href="single-project.html">Single Project</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="contact-us.html" data-description="Enquire here">Contact</a>
+			</li>
+		</ul>
 
-<p>If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>
+	</nav><!-- end #main-nav -->
+
+</header><!-- end #header -->
+
+<section id="content" class="container clearfix">
+
+	<h2 class="slogan align-center">We are a group of experienced designers and developers.<br />
+	We set new standards in user experience &amp; make future happen.</h2>
+
+	<section id="features-slider" class="ss-slider">
+
+		<article class="slide">
+
+			<img src="/assets/img/placeholders/slider-slide-1.jpg" alt="" class="slide-bg-image" />
+
+			<div class="slide-button">
+				<span class="dropcap">1</span>
+				<h5>Responsive Layout</h5>
+				<span class="description">From desktop to mobile</span>
+			</div>
+
+			<div class="slide-content">
+				<h2>Responsive Layout</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec purus justo.</p>
+				<p><a class="button" href="#">Read More</a></p>
+			</div>
+
+		</article><!-- end .slide (Responsive Layout) -->
+
+		<article class="slide">
+
+			<img src="/assets/img/placeholders/slider-slide-2.jpg" alt="" class="slide-bg-image" />
+
+			<div class="slide-button">
+				<span class="dropcap">2</span>
+				<h5>HTML5 / CSS3</h5>
+				<span class="description">For today and tomorrow</span>
+			</div>
+
+			<div class="slide-content">
+				<h2>HTML5 / CSS3</h2>
+				<p>Hendrerit eleifend condimentum quis, varius at lacus. Donec ultrices justo scelerisque erat feugiat sed mattis justo volutpat.</p>
+				<p><a class="button" href="#">Read More</a></p>
+			</div>
+
+		</article><!-- end .slide (HTML5 / CSS3) -->
+
+		<article class="slide">
+
+			<img src="/assets/img/placeholders/slider-slide-3.jpg" alt="" class="slide-bg-image" />
+
+			<div class="slide-button">
+				<span class="dropcap">3</span>
+				<h5>Easily Customisable</h5>
+				<span class="description">Build the way you want!</span>
+			</div>
+
+			<div class="slide-content">
+				<h2>Easily Customisable</h2>
+				<p>Etiam at nunc felis, vitae gravida libero. Morbi molestie elit eget metus volutpat vitae bibendum quam lacinia. Maecenas porttitor blandit nisl sit amet blandit. Phasellus porta sodales accumsan.</p>
+				<p><a class="button" href="#">Read More</a></p>
+			</div>
+
+		</article><!-- end .slide (Easily Customisable) -->
+
+		<article class="slide">
+
+			<img src="/assets/img/placeholders/slider-slide-4.jpg" alt="" class="slide-bg-image" />
+
+			<div class="slide-button">
+				<span class="dropcap">4</span>
+				<h5>Unique &amp; Clean</h5>
+				<span class="description">Stand out from the crowd!</span>
+			</div>
+
+			<div class="slide-content">
+				<h2>Unique &amp; Clean</h2>
+				<p>Fusce porta elit quis nunc mollis ut lacinia eros accumsan. Aenean consequat egestas diam, vel pharetra tellus venenatis in.</p>
+				<p><a class="button" href="#">Read More</a></p>
+			</div>
+
+		</article><!-- end .slide (Unique & Clean) -->
+
+	</section><!-- end #features-slider -->
+
+</section><!-- end #content -->
