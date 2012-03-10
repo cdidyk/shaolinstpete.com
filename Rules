@@ -22,8 +22,9 @@ compile '*' do
   if item.binary?
     # don’t filter binary items
   else
-    filter :haml, format: :html5
+    filter :haml
     layout 'default'
+    layout 'crust'
   end
 end
 
@@ -45,4 +46,5 @@ route '*' do
   end
 end
 
-layout '*', :erb
+layout '/crust/', :erb
+layout '*', :haml, format: :html5
