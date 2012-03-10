@@ -1,3 +1,15 @@
+%header#header.container.clearfix
+  %a#logo{ href: "index.html" }
+    %img{src: "/assets/site_img/shaolin_wahnam_logo.jpg", alt: "Shaolin Wahnam St Pete", height: "86px", width: "86px"}
+    %h1 Shaolin Wahnam St Pete
+
+  %nav#main-nav
+    %ul
+      %li.current
+        %a{ href: "index.html", 'data-description' => "All starts here" } Home
+      %li
+        %a{ href: "contact-us.html", 'data-description' => "Enquire here" } Contact
+
 = yield
 
 %footer#footer.clearfix

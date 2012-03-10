@@ -1,0 +1,10 @@
+#header #logo img {
+    float: left;
+}
+
+#header #logo h1 {
+    display: inline-block;
+    line-height: 86px;
+    float: left;
+    margin-left: 0.5em;
+}
