@@ -15,7 +15,7 @@ jQuery(document).ready(function($) {
 			$cont.data('dir', '')
 			if( e.target.className.indexOf('prev') > -1 ) $cont.data('dir', 'prev');
 		});
-		
+
 		$cont.css('overflow', 'hidden');
 		opts.before.push($.fn.cycle.commonReset);
 		var w = $cont.width();
@@ -54,12 +54,12 @@ jQuery(document).ready(function($) {
 	/* ---------------------------------------------------------------------- */
 	/*	Main Navigation
 	/* ---------------------------------------------------------------------- */
-	
+
 	(function() {
 
 		var $mainNav    = $('#main-nav').children('ul'),
 			optionsList = '<option value="" selected>Navigate...</option>';
-		
+
 		// Regular nav
 		$mainNav.on('mouseenter', 'li', function() {
 			var $this    = $(this),
@@ -91,7 +91,7 @@ jQuery(document).ready(function($) {
 		$('.responsive-nav').on('change', function() {
 			window.location = $(this).val();
 		});
-		
+
 	})();
 
 	/* end Main Navigation */
@@ -152,8 +152,8 @@ jQuery(document).ready(function($) {
 			$('#features-slider').smartStartSlider({
 				pos             : 0,
 				hideContent     : true,
-				timeout         : 3000,
-				pause           : false,
+				timeout         : 6000,
+				pause           : true,
 				pauseOnHover    : true,
 				type            : {
 					mode        : 'random',
@@ -164,7 +164,7 @@ jQuery(document).ready(function($) {
 			});
 
 		}
-		
+
 	})();
 
 	/* end Features Slider */
@@ -180,7 +180,7 @@ jQuery(document).ready(function($) {
 		if( $slider.length ) {
 
 			$('#logos-slider').smartStartSlider({
-				pos             : 0, 
+				pos             : 0,
 				hideContent     : true,
 				contentPosition : 'center',
 				timeout         : 3000,
@@ -195,7 +195,7 @@ jQuery(document).ready(function($) {
 			});
 
 		}
-		
+
 	})();
 
 	/* end Logos Slider */
@@ -226,7 +226,7 @@ jQuery(document).ready(function($) {
 			});
 
 		}
-		
+
 	})();
 
 	/* end Photos Slider */
@@ -277,7 +277,7 @@ jQuery(document).ready(function($) {
 
 			// Run slider when all images are fully loaded
 			$(window).load(function() {
-				
+
 				$slider.each(function(i) {
 					var $this = $(this);
 
@@ -304,9 +304,9 @@ jQuery(document).ready(function($) {
 							 timeout         : 0,
 							 width           : '100%'
 						 });
-					
+
 				});
-			
+
 				// Position nav
 				var $arrowNav = $('.image-gallery-slider-nav a');
 				$arrowNav.css('margin-top', - $arrowNav.height() / 2 );
@@ -317,7 +317,7 @@ jQuery(document).ready(function($) {
 				}).on('mouseleave', function() {
 					$(this).parent().prev().cycle('resume');
 				})
-				
+
 			});
 
 			// Resize
@@ -409,7 +409,7 @@ jQuery(document).ready(function($) {
 
 			// Fix for player, if in Image Gallery Slider
 			$('.mejs-fullscreen-button').on('click', 'button', function() {
-			
+
 				if( $(this).hasParent('.image-gallery-slider ul') ) {
 
 					// Minimize
@@ -477,7 +477,7 @@ jQuery(document).ready(function($) {
 
 			$allVideos.each(function(){
 				var $this = $(this);
-				if (this.tagName.toLowerCase() == 'embed' && $this.parent('object').length || $this.parent('.fluid-width-video-wrapper').length) { return; } 
+				if (this.tagName.toLowerCase() == 'embed' && $this.parent('object').length || $this.parent('.fluid-width-video-wrapper').length) { return; }
 				var height = this.tagName.toLowerCase() == 'object' ? $this.attr('height') : $this.height(),
 				aspectRatio = height / $this.width();
 				if(!$this.attr('id')){
@@ -532,7 +532,7 @@ jQuery(document).ready(function($) {
 		var fullWidth = $container.outerWidth(true);
 		$trigger.css('width', fullWidth);
 		$container.css('width', fullWidth);
-		
+
 		$trigger.on('click', function(e) {
 			if( $(this).next().is(':hidden') ) {
 				$trigger.removeClass('active').next().slideUp(300);
@@ -551,7 +551,7 @@ jQuery(document).ready(function($) {
 	})();
 
 	/* end Accordion Content */
-	
+
 	/* ---------------------------------------------------- */
 	/*	Content Tabs
 	/* ---------------------------------------------------- */
@@ -572,7 +572,7 @@ jQuery(document).ready(function($) {
 			$tabsNavLis.removeClass('active');
 			$this.addClass('active');
 			$tabContent.hide();
-			
+
 			$( $this.find('a').attr('href') ).fadeIn();
 
 			e.preventDefault();
@@ -606,7 +606,7 @@ jQuery(document).ready(function($) {
 						element.html( data );
 					}
 			});
-			
+
 		}
 
 		// Latest Tweets
@@ -618,7 +618,7 @@ jQuery(document).ready(function($) {
 		if( $flickrContainer.length ) fetchFeed( 'php/flickr.php', $flickrContainer );
 
 	})();
-		
+
 	/* end PHP Widgets */
 
 	/* ---------------------------------------------------------------------- */
@@ -631,10 +631,10 @@ jQuery(document).ready(function($) {
 		    $loader = '<img src="img/loader.gif" height="11" width="16" alt="Loading..." />';
 
 		$form.append('<div class="hidden" id="response">');
-		
+
 		// Do what we need to when form is submitted.
 		$form.on('click', 'input[type=submit]', function(e){
-		
+
 			// Setup any needed variables.
 			var inputName    = $('#contact-name').val(),
 				inputEmail   = $('#contact-email').val(),
@@ -644,12 +644,12 @@ jQuery(document).ready(function($) {
 
 			// Hide any previous response text and show loader
 			response.hide().html( $loader ).show();
-			
-			// Make AJAX request 
+
+			// Make AJAX request
 			$.post('php/contact-send.php', {name: inputName, email: inputEmail, subject: inputSubject, message: inputMessage}, function(data){
 				response.html(data);
 			});
-			
+
 			// Cancel default action
 			e.preventDefault();
 		});
