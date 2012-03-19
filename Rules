@@ -18,6 +18,13 @@ compile '/assets/*/' do
   # don’t filter or layout
 end
 
+compile '/articles/*/' do
+  filter :erb
+  filter :kramdown
+  layout 'default'
+  layout 'crust'
+end
+
 compile '*' do
   if item.binary?
     # don’t filter binary items
@@ -35,6 +42,10 @@ end
 # route '/stylesheet/' do
 #   '/style.css'
 # end
+
+route '/articles/drafts/*/' do
+  # don't output
+end
 
 route '*' do
   if item.binary?
