@@ -24,10 +24,6 @@ section h1, section h2, section h3, section h4, section h5, section h6, .page-ti
     color: #909090;
 }
 
-.entry-body .title {
-    color: inherit;
-}
-
 /*
 .entry-meta .post-format {
     background-color: #b80503;
@@ -36,10 +32,9 @@ section h1, section h2, section h3, section h4, section h5, section h6, .page-ti
 */
 
 dl dt {
-    display: block;
-    color: #b80503;
+    font-weight: bold;
 }
 
 dl dd {
-    padding: 0 20px 25px 25px;
+    padding: 0 20px 15px 25px;
 }
