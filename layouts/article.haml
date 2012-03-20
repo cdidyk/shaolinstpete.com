@@ -1,0 +1,18 @@
+%section#content.container.clearfix
+  %section#main
+    %article.entry.single.clearfix
+      .entry-body
+        %a{href: '#'}
+          %h1.title= @item[:title]
+
+        = yield
+
+      .entry-meta
+        %ul
+          %li
+            %a{href: "#"}
+              %span.post-format Permalink
+          %li
+            %span.title Posted:
+            %a{href: "#"}
+              = @item[:posted_at]

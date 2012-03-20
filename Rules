@@ -18,9 +18,14 @@ compile '/assets/*/' do
   # don’t filter or layout
 end
 
+compile '/articles/drafts/*/' do
+  # don't bother compiling since we won't output
+end
+
 compile '/articles/*/' do
   filter :erb
   filter :kramdown
+  layout 'article'
   layout 'default'
   layout 'crust'
 end

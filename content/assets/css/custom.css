@@ -7,6 +7,7 @@
     line-height: 86px;
     float: left;
     margin-left: 0.5em;
+    color: #b80503;
 }
 
 .slides-container {
@@ -18,7 +19,16 @@ body {
     font: 13px/1.7 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
+/*
 section h1, section h2, section h3, section h4, section h5, section h6, .page-title {
     font-weight: 500;
     color: #909090;
 }
+*/
+
+/*
+.entry-meta .post-format {
+    background-color: #b80503;
+    color: #b80503;   //#f15a23;
+ }
+*/
