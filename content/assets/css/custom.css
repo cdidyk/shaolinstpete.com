@@ -6,15 +6,11 @@ section a:hover, section a > *:hover {
     text-decoration: underline;
 }
 
-#header #logo img {
-    float: left;
-}
-
 #header #logo h1 {
-    display: inline-block;
+    display: block;
+    background: #fff url(../site_img/shaolin_wahnam_logo_sm.jpg) no-repeat left center;
     line-height: 86px;
-    float: left;
-    margin-left: 0.5em;
+    padding-left: 100px;
     color: #b80503;
     font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
     font-weight: 800;
@@ -41,13 +37,6 @@ section h1, section h2, section h3, section h4, section h5, section h6, .page-ti
     font-weight: 500;
     color: #909090;
 }
-
-/*
-.entry-meta .post-format {
-    background-color: #b80503;
-    color: #b80503;   //#f15a23;
- }
-*/
 
 dl dt {
     font-weight: bold;
