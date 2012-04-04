@@ -1,5 +1,5 @@
 a, a > * {
-    color: #b80503;
+    color: #b80508;
 }
 
 section a:hover, section a > *:hover {
@@ -11,7 +11,7 @@ section a:hover, section a > *:hover {
     background: #fff url(../site_img/shaolin_wahnam_logo_sm.jpg) no-repeat left center;
     line-height: 86px;
     padding-left: 100px;
-    color: #b80503;
+    color: #b80508;
     font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
     font-weight: 800;
 }
@@ -51,6 +51,14 @@ dl dd {
     margin: 0 0 5px 24px;
     padding: 0 0 0 24px;
     text-align: left;
+}
+
+#footer .contact-info a {
+    color: #b80508;
+}
+
+#footer .contact-info a:hover {
+    text-decoration: underline;
 }
 
 .team-member {

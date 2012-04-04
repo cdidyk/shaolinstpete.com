@@ -1032,8 +1032,8 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
 		.ss-slider .content-container, .no-js .ss-slider .slide-content {
 			background: rgb(0, 0, 0); /* Fallback for old IE */
-			filter: alpha(opacity=60); /* Fallback for old IE */
-			background: rgba(0, 0, 0, .6);
+			filter: alpha(opacity=80); /* Fallback for old IE */
+			background: rgba(0, 0, 0, .8);
 			bottom: 115px;
 			display: block;
 			left: 30px;
@@ -2020,11 +2020,13 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 	width: 15px;
 }
 
+
 	#footer, #footer a,
 	#footer-bottom, #footer-bottom a { color: #868686; }
 
 		#footer a:hover,
 		#footer-bottom a:hover { color: #b80508; }
+
 
 	#footer .title {
 		border-bottom: 1px solid #4b4b4b;
