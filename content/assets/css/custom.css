@@ -38,6 +38,10 @@ section h1, section h2, section h3, section h4, section h5, section h6, .page-ti
     color: #909090;
 }
 
+.accented {
+    color: #b80508;
+}
+
 dl dt {
     font-weight: bold;
 }
