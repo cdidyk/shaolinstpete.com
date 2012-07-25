@@ -6,6 +6,10 @@ section a:hover, section a > *:hover {
     text-decoration: underline;
 }
 
+section a.button:hover, section a.button > *:hover {
+    text-decoration: none;
+}
+
 #header #logo h1 {
     display: block;
     background: #fff url(../site_img/shaolin_wahnam_logo_sm.jpg) no-repeat left center;
@@ -40,6 +44,38 @@ section h1, section h2, section h3, section h4, section h5, section h6, .page-ti
 
 .accented {
     color: #b80508;
+}
+
+.course-offering img {
+    float: left;
+    margin-right: 1em;
+}
+
+.course-offering .details {
+
+}
+
+.course-offering .description {
+    clear: left;
+}
+
+hr {
+    clear: both;
+}
+
+.pricing {
+    width: 50%;
+    margin: auto 25% 2em 25%;
+    font-size: 120%;
+}
+
+.pricing tr {
+    border-bottom: 1px solid;
+}
+
+.pricing td {
+    text-align: left;
+    padding-top: 0.5em;
 }
 
 dl dt {
