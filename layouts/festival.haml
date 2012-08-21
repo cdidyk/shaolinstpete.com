@@ -1,0 +1,35 @@
+%header#header.container.clearfix
+  %a#logo{ href: "/festival/" }
+    %h1 2012 Tai Chi Chuan Festival
+
+  %nav#main-nav
+    %ul
+      %li
+        %a{ href: "https://secure.shaolinstpete.com/courses" } Registration
+      %li
+        %a{ href: "/festival/venue/" } Venue
+
+
+= yield
+
+%footer#footer.clearfix
+  %div.container
+    %div
+      %nav#footer-nav.clearfix
+        %ul
+          %li
+            %a{href: "http://shaolinstpete.com"} Shaolin Wahnam St. Pete Main Site
+
+      %ul.contact-info
+        %li.address Nov. 2 - 5, St. Petersburg, FL, USA
+        %li
+          Proudly affiliated with
+          %a{href: "http://www.shaolin.org"} the Shaolin Wahnam Institute
+          and
+          %a{href: "http://www.flowingzen.com"} Flowing Zen
+
+
+%footer#footer-bottom.clearfix
+  %div.container
+    %ul
+      %li Shaolin Wahnam St Pete LLC &copy; 2012
