@@ -31,9 +31,13 @@ compile '/articles/*/' do
 end
 
 compile '/festival/*' do
-  filter :haml
-  layout 'festival'
-  layout 'crust'
+  if item.binary?
+    # don't filter binary items
+  else
+    filter :haml
+    layout 'festival'
+    layout 'crust'
+  end
 end
 
 compile '*' do
