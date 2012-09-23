@@ -104,3 +104,9 @@ dl dd {
 .team-member {
     padding-top: 10px;
 }
+
+ul.resource-list li {
+    border-bottom: 1px solid #DDD;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}

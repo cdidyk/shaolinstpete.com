@@ -7,7 +7,13 @@
       %li
         %a{ href: "https://secure.shaolinstpete.com/courses" } Registration
       %li
-        %a{ href: "/festival/venue/" } Venue
+        %a{ href: "/festival/", 'data-description' => "Descriptions & Resources" } Courses
+        %ul
+          %li
+            %a{ href: "/festival/resources/" } Resources
+      %li
+        %a{ href: "/festival/venue/", 'data-description' => "Travel & Lodging" } Venue
+
 
 
 = yield
