@@ -30,16 +30,6 @@ compile '/articles/*/' do
   layout 'crust'
 end
 
-compile '/festival/*' do
-  if item.binary?
-    # don't filter binary items
-  else
-    filter :haml
-    layout 'festival'
-    layout 'crust'
-  end
-end
-
 compile '*' do
   if item.binary?
     # don’t filter binary items
