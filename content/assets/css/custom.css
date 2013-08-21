@@ -34,7 +34,7 @@ section a.button:hover, section a.button > *:hover {
 
 body {
     color: #474747;
-    font: 13px/1.5 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font: 14px/1.6 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
 section h1, section h2, section h3, section h4, section h5, section h6, .page-title {
