@@ -12,7 +12,8 @@
           %li
             %a{href: "#"}
               %span.post-format Permalink
-          %li
-            %span.title Posted:
-            %a{href: "#"}
-              = @item[:posted_at]
+          - if @item[:posted_at]
+            %li
+              %span.title Posted:
+              %a{href: "#"}
+                = @item[:posted_at]
