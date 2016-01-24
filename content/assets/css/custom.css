@@ -65,8 +65,8 @@ hr {
 
 .pricing {
     width: 50%;
-    margin: auto 25% 2em 25%;
-    font-size: 120%;
+    // margin: auto 25% 2em 25%;
+    // font-size: 120%;
 }
 
 .pricing tr {
