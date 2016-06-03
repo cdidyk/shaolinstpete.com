@@ -55,9 +55,11 @@ section h1, section h2, section h3, section h4, section h5, section h6, .page-ti
 
 }
 
+/*
 .course-offering .description {
     clear: left;
 }
+*/
 
 hr {
     clear: both;
