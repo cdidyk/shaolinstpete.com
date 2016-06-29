@@ -113,6 +113,29 @@ ul.resource-list li {
   padding-top: 0.5em;
 }
 
+/* Gray's Updates */
+
+.slogan {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.facebook-link img {
+  margin-right: 95px;
+}
+
+.grandmaster-wong-subdescription {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  padding-bottom: 25px;
+}
+
+.grandmaster-wong-subdescription .button {
+  margin-left: 100px;
+}
+
 /* Responsive Styles */
 
 @media only screen and (max-width: 959px) and (min-width: 768px) {
@@ -145,6 +168,10 @@ ul.resource-list li {
     margin: 0;
     text-align: center;
   }
+
+  .grandmaster-wong-subdescription .button {
+    margin-left: 50px;
+  }
 }
 
 @media only screen and (max-width: 959px) {
@@ -160,5 +187,23 @@ ul.resource-list li {
     display: flex;
     line-height: 1;
     padding: 16px 0 16px 100px;
+  }
+
+  .slogan {
+    display: block;
+    margin-left: 0;
+  }
+
+  .facebook-link {
+    text-align: center;
+  }
+
+  .facebook-link img {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .grandmaster-wong-subdescription .button {
+    margin-left: 25px;
   }
 }
