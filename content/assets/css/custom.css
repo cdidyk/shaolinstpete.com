@@ -136,6 +136,14 @@ ul.resource-list li {
   margin-left: 100px;
 }
 
+.featured-image {
+  text-align: center;
+}
+
+.featured-image img {
+  width: 100%;
+}
+
 /* Responsive Styles */
 
 @media only screen and (max-width: 959px) and (min-width: 768px) {
