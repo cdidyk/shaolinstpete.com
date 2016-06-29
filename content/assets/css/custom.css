@@ -125,9 +125,18 @@ ul.resource-list li {
 }
 
 .grandmaster-wong-subdescription {
-  align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 0;
   padding-bottom: 25px;
 }
@@ -165,7 +174,13 @@ ul.resource-list li {
   }
 
   #header #logo h1 {
-    align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     line-height: 1;
     margin: 0;
@@ -197,7 +212,13 @@ ul.resource-list li {
 
 @media only screen and (max-width: 767px) {
   #header #logo h1 {
-    align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     line-height: 1;
     padding: 16px 0 16px 100px;
