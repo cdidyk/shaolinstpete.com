@@ -31,12 +31,16 @@ compile '/articles/*/' do
 end
 
 compile '/classes/grandmaster-wong' do
-  #
   filter :haml
   layout 'festival-crust'
 end
 
-route '/stylesheets' do
+compile '/styleguide' do
+  filter :haml
+  layout 'festival-crust'
+end
+
+compile '/stylesheets/*/' do
   #  don't filter stylesheets directory
 end
 

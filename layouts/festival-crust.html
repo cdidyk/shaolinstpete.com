@@ -13,11 +13,81 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <meta name="google-site-verification" content="Uu2Duxe4J5tGKEFocZuqDVDynnM0j189zB4k8dj8eF0" />
+
+  <link rel="stylesheet" href="/assets/css/main.min.css" media="screen" />
+
 </head>
 
 <body>
-  <%= yield %>
+  <header>
+    <div class="container">
+      <a href="/index.html" id="logo">
+        <h1>Shaolin Wahnam St Pete</h1>
+      </a>
 
+      <nav id="main-nav">
+        <ul>
+          <li>
+            <a data-description="Schedule & Details" href="#">Classes</a>
+            <ul>
+              <li>
+                <a href="/classes/kungfu/">Shaolin Kung Fu</a>
+              </li>
+              <li>
+                <a href="/classes/chikung/">Shaolin Cosmos Chi Kung</a>
+              </li>
+              <li>
+                <a href="/classes/grandmaster-wong/">Grandmaster Wong in St Pete</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/articles/sifu-chris/">About</a>
+          </li>
+          <li>
+            <a href="/contact-us/">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="content">
+    <div class="container">
+      <%= yield %>
+    </div>
+  </div>
+
+  <footer class="footer">
+
+
+
+    <div class="container">
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <a href="/classes/kungfu/">Kung Fu</a>
+            </li>
+            <li>
+              <a href="/classes/chikung/">Chi Kung</a>
+            </li>
+            <li>
+              <a href="/contact-us/">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <ul>
+          <li>St. Petersburg, FL, USA</li>
+          <li>
+            Proudly affiliated with
+            <a href="http://www.shaolin.org">the Shaolin Wahnam Institute</a>
+          </li>
+        </ul>
+      </div>
+      <p>Shaolin Wahnam St Pete LLC &copy; 2012</p>
+    </footer>
+  </div>
   <script>
    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

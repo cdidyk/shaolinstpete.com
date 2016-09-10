@@ -18,6 +18,10 @@ gulp.task('styles', function() {
     .pipe(notify({ message: 'Styles task complete' }));
 });
 
+gulp.task('watch', function() {
+  gulp.watch('./content/stylesheets/**/*.sass', ['styles']);
+});
+
 gulp.task('default', function() {
   gulp.start('styles');
 });
