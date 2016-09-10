@@ -30,6 +30,12 @@ compile '/articles/*/' do
   layout 'crust'
 end
 
+compile '/classes/grandmaster-wong' do
+  #
+  filter :haml
+  layout 'festival-crust'
+end
+
 compile '*' do
   if item.binary?
     # don’t filter binary items
@@ -63,4 +69,5 @@ route '*' do
 end
 
 layout '/crust/', :erb
+layout '/festival-crust/', :erb
 layout '*', :haml, format: :html5
