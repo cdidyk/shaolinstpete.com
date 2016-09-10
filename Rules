@@ -36,6 +36,10 @@ compile '/classes/grandmaster-wong' do
   layout 'festival-crust'
 end
 
+route '/stylesheets' do
+  #  don't filter stylesheets directory
+end
+
 compile '*' do
   if item.binary?
     # don’t filter binary items
