@@ -1,19 +1,6 @@
 %section#content.container.clearfix
-  %section#main
-    %article.entry.single.clearfix
-      .entry-body
-        %a{href: '#'}
-          %h1.title= @item[:title]
+  %article.entry.single.clearfix
+    %div
+      %h2.title= @item[:title]
 
-        = yield
-
-      .entry-meta
-        %ul
-          %li
-            %a{href: "#"}
-              %span.post-format Permalink
-          - if @item[:posted_at]
-            %li
-              %span.title Posted:
-              %a{href: "#"}
-                = @item[:posted_at]
+      = yield
