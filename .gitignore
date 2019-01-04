@@ -1,5 +1,7 @@
 output/
 tmp/
+node_modules/
+yarn.lock
 .DS_Store
 crash.log
 Gemfile.lock
