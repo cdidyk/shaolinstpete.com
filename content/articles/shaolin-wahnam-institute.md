@@ -76,15 +76,13 @@ Grandmaster Wong Kiew Kit formed the Shaolin Wahnam Institute to pass the Shaoli
 
 [Shaolin Wahnam Portugal](http://www.shaolin-wahnam-portugal.com/)<br/>Portugal<br/>Sifu Riccardo Salvatore
 
-[Wahnam Tai Chi Chuan Dublin & Cork](http://www.taijiquan.ie)<br/>Dublin & Cork, Ireland<br/>Sifu Kevin Barry
+<!-- [Wahnam Tai Chi Chuan Dublin & Cork](http://www.taijiquan.ie)<br/>Dublin & Cork, Ireland<br/>Sifu Kevin Barry -->
 
 [Tai Chi Martial Art](https://taichimartialart.ie/)<br/>Ireland<br/>Sifu Dominic Roche
 
 [Shaolin Wahnam Institute Ireland](http://wahnam-ireland.ie/)<br/>Ireland<br/>Sifu Mark Hartnett & Sifu Gregg Hartnett
 
 [Shaolin Wahnam Nederland](http://shaolinholland.com/)<br/>Netherlands<br/>Sifu Roeland Dijkema
-
-[Shaolin Wahnam Institute Malta](http://www.essenceofshaolin.com/)<br/>Malta<br/>Sifu Claude Scicluna
 
 [Shaolin Wahnam Russia](http://www.artsofflow.ru/)<br/>Russia<br/>Sifu Alexey Garshin
 
