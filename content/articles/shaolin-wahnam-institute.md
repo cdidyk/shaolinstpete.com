@@ -8,13 +8,9 @@ Grandmaster Wong Kiew Kit formed the Shaolin Wahnam Institute to pass the Shaoli
 
 [Shaolin Wahnam Institute](https://shaolin.org)<br/>Penang, Malaysia<br/>Grandmaster Wong Kiew Kit
 
-[Cosmos Internet](http://cosmosinternet.com/)<br/>Malaysia<br/>Grandmaster Wong's books
-
 ### North America ###
 
 [Smiling Heart Studio](https://smilingheartstudio.com)<br/>St Petersburg, FL, USA<br/>Sifu Christina Didyk
-
-[Shaolin Wahnam New England](http://newenglandshaolin.com)<br/>Concord, NH, USA<br/>Sifu Matt Fenton
 
 [Shaolin Wahnam Puerto Rico](https://www.shaolinpr.com/)<br/>Puerto Rico<br/>Sifu Angel Perez
 
@@ -37,8 +33,6 @@ Grandmaster Wong Kiew Kit formed the Shaolin Wahnam Institute to pass the Shaoli
 [Flowing Health](https://www.flowing-health.ch/)<br/>Switzerland<br/>Sifu Andrew Barnett
 
 [EnerQi](http://www.enerqi.ch/)<br/>Switzerland<br/>Sifu Roland Mastel
-
-[Shaolin Arts](https://www.shaolin-arts.ch/)<br/>Switzerland<br/>Sifu Adrian Zingg
 
 [Qi Gong Healing](https://www.qigonghealing.ch)<br/>Switzerland<br/>Sifu Irene Bassal
 
@@ -86,7 +80,6 @@ Grandmaster Wong Kiew Kit formed the Shaolin Wahnam Institute to pass the Shaoli
 
 [Shaolin Wahnam Russia](http://www.artsofflow.ru/)<br/>Russia<br/>Sifu Alexey Garshin
 
-[Living Zen](https://www.living-zen.com/)<br/>Scotland<br/>Sifu Mark Appleford
 
 [Shaolin Wahnam Italy](https://www.shaolinwahnamitaly.org/)<br/>Italy<br/>Sifu Andrea Lombardi
 
@@ -94,15 +87,11 @@ Grandmaster Wong Kiew Kit formed the Shaolin Wahnam Institute to pass the Shaoli
 
 [Shaolin Wahnam Taiwan](https://shaolinwahnamtaiwan.blogspot.tw/)<br/>Taiwan<br/>Sifu Mark Blohm
 
-[Shaolin Wahnam Singapore](http://www.wahnamsg.com/)<br/>Singapore<br/>Sifu Zhang Wuji
-
 [Holistic Health Cultivation Center](https://www.holistic.com.my/)<br/>Kuala Lumpur, Malaysia<br/>Sifu Dr. Foong Tuck Meng
 
 [Shaolin Wahnam Kuala Lumpur](https://shaolinwahnammalaysia.com/)<br/>Kuala Lumpur, Malaysia<br/>Sifu Lee Wei Joo
 
 [Shaolin Wahnam Sabah](http://www.shaolinwahnamsabah.com/)<br/>Sabah, Malaysia<br/>Sifu Bernie Kissey
-
-[Chi Kung Bali](http://www.chikungbali.com/)<br/>Bali<br/>Sifu Relinde Moors
 
 ### Australia ###
 
